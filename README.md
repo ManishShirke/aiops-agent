@@ -65,22 +65,32 @@ Prerequisites
 
 Installation
 1.	Clone the repository
-Bash
-git clone https://github.com/ManishShirke/aiops-agent.git
-cd aiops-agent
+   
+        Bash
+  	
+        git clone https://github.com/ManishShirke/aiops-agent.git
+  	
+        cd aiops-agent
 
-2.	Install Dependencies
-Bash
-pip install -q -U google-generativeai nest_asyncio
+3.	Install Dependencies
+   
+        Bash
+  	
+        pip install -q -U google-generativeai nest_asyncio
 
-3.	Set API Key
-Bash
-export GOOGLE_API_KEY="your_actual_api_key_here"
+4.	Set API Key
+	
+        Bash
+  	
+        export GOOGLE_API_KEY="your_actual_api_key_here"
 
-Running the Agent
-Execute the main script to start the simulation:
-Bash
-python aiops_agent/main.py
+6. Running the Agent
+
+   Execute the main script to start the simulation:
+   
+        Bash
+   
+        python aiops_agent/main.py
  
  
 🎬 Demo Scenario
