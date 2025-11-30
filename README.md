@@ -11,7 +11,7 @@ Crucially, it solves the "Runaway AI" problem by implementing a strict Human-in-
 🏗️ Architecture
 The system is architected as a modular, event-driven Python application, decoupling the cognitive logic (Brain) from the infrastructure execution (Hands).
 
-![Architecture Diagram](./aiops_architecture_final.png)
+![Architecture Diagram](./aiops_architecture_bold.png)
  
 Key Components
 1.	Orchestrator: A finite state machine managing the lifecycle (Monitor → Diagnose → Remediate → Verify).
