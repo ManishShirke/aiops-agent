@@ -1,0 +1,28 @@
+# .gitignore
+
+# Python compilation
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables (SECRETS)
+.env
+.env.local
+
+# Databases (The code re-creates these, don't commit them)
+*.db
+*.sqlite
+*.sqlite3
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Virtual Environments
+venv/
+env/
+.venv/
+
+# IDE settings
+.vscode/
+.idea/
