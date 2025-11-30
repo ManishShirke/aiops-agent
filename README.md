@@ -32,7 +32,6 @@ Feature	Description
 
  
 📂 Repository Structure
-Plaintext
 aiops_agent/
 │
 ├── main.py                    # Entry point; handles seeding and execution loop
@@ -56,8 +55,8 @@ aiops_agent/
 │
 └── tools/                     # THE HANDS
     └── actions.py             # Tool implementation logic
+    
 
- 
  
 🚀 Getting Started
 Prerequisites
@@ -67,7 +66,7 @@ Prerequisites
 Installation
 1.	Clone the repository
 Bash
-git clone https://github.com/yourusername/aiops-agent.git
+git clone https://github.com/ManishShirke/aiops-agent.git
 cd aiops-agent
 
 2.	Install Dependencies
